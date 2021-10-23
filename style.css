@@ -1,0 +1,54 @@
+body {
+    background-color: #999;
+    color: white;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cabecalho{
+    margin: auto;
+    background-color: purple;
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 25px;
+
+}
+
+.perfil{
+    margin-top: 10px;
+    background-color: black;
+    border-style: double;
+    width: 700px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    border-radius: 25px;
+}
+
+.perfil h1{
+    margin-bottom: -10px;
+}
+
+.galeria-maravilhosas{
+    width: 1000px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.galeria-maravilhosas div{
+    border-style: solid;
+    border-color: #999;
+}
+
+img {
+    width: 150px; 
+    height:150px;
+    border-radius: 50px;
+}
